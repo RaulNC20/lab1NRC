@@ -1,7 +1,6 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) {
 /*
@@ -52,7 +51,7 @@ public class Main {
         intCalc.multiply(2);
         System.out.println("(int) = " + intCalc.result());
 
-        // Double
+
         DoubleCalculator doubleCalc = new DoubleCalculator();
         doubleCalc.init(10.0);
         doubleCalc.add(5.0);
