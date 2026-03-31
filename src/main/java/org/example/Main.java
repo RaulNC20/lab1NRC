@@ -4,7 +4,7 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-
+/*
         String alfabet = "abcdefghijklmnopqrstuvwxyz";
 
         for(char c = 'a'; c <= 'z'; c++) {
@@ -44,6 +44,20 @@ public class Main {
 
         for(int i = 0; i < index; i++) {
             System.out.println("array[" + i + "] = " + array[i]);
-        }
+        }*/
+        NewIntCalculator intCalc = new NewIntCalculator();
+        intCalc.init(10);
+        intCalc.add(5);
+        intCalc.subtract(3);
+        intCalc.multiply(2);
+        System.out.println("(int) = " + intCalc.result());
+
+        // Double
+        DoubleCalculator doubleCalc = new DoubleCalculator();
+        doubleCalc.init(10.0);
+        doubleCalc.add(5.0);
+        doubleCalc.subtract(3.3);
+        doubleCalc.multiply(2.2);
+        System.out.println("(double) = " + doubleCalc.result());
     }
 }
