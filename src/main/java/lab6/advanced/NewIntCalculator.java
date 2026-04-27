@@ -1,9 +1,9 @@
-package lab6.advance;
+package lab6.advanced;
 
 public class NewIntCalculator extends ACalculator<Integer> {
 
     @Override
-    NewIntCalculator init() {
+    public NewIntCalculator init() {
         state = 0;
         return this;
     }

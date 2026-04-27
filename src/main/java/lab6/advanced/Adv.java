@@ -1,6 +1,6 @@
-package lab6.advance;
+package lab6.advanced;
 
-public class Lab5Adv {
+public class Adv {
     static void main(String[] args) {
         NewIntCalculator calculator = new NewIntCalculator();
         Integer resultInteger = calculator.init().add(10).add(5).subtract(3).multiply(2).divide(3).result();

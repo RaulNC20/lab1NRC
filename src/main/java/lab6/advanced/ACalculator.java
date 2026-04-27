@@ -1,9 +1,9 @@
-package lab6.advance;
+package lab6.advanced;
 
 public abstract class ACalculator<T> {
     Object state;
 
-    abstract <S extends ACalculator> S init();
+    public abstract <S extends ACalculator> S init();
 
     public T result() {
         return (T)state;
